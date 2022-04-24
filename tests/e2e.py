@@ -4,11 +4,11 @@ BASE_URL = 'http://127.0.0.1:5001'
 
 def test_scores_service():
     """
-    its purpose is to test our web service. It will get the application
+    its purpose is to test our web service. It will get the application.
     URL as an input, open a browser to that URL, select the score element in our web page,
     check that it is a number between 1 and 1000 and return a boolean value if it’s true or not.
     :param url:
-    :return: True/Falsedonhj
+    :return: True/Falsedonhj.
     """
     options = webdriver.ChromeOptions()
     # options.add_argument('--headless')
