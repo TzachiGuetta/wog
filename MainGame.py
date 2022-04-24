@@ -10,9 +10,9 @@ print(welcome("Tzachi"))
 load_game()
 MainScores.score()
 
-@app.route('/')
-def score_server():
-    return app.send_static_file('blog.html')
+#@app.route('/')
+#def score_server():
+#    return app.send_static_file('blog.html')
 
-if __name__ == '__main__':
-    app.run(threaded=True, port=5001)
+#if __name__ == '__main__':
+#    app.run(threaded=True, port=5001)
