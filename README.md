@@ -1,1 +1,1 @@
-# wog
+# wog - World of Games
