@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  web:
+    image: tzachiguetta/wog
+    container_name: WoG_WEB
+    build: .
+    ports:
+      - "8081:5000"
+    volumes:
+      - ./score.txt:/wog/score.txt
