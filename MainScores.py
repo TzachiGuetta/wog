@@ -27,12 +27,11 @@ def html_generator(file_name, text):
         file.write(rendered)
 
 
-# @app.route('/')
-# def score_server():
-#     score()
-#     return app.send_static_file('blog.html')
-#
-# if __name__ == '__main__':
-#     app.run(threaded=True, port=5001)
-#
-# score_server()
+@app.route('/')
+def score_server():
+    score()
+    return app.send_static_file('blog.html')
+
+
+if __name__ == '__main__':
+    app.run()
